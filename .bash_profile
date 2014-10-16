@@ -2,6 +2,7 @@ export HISTIGNORE="ls:pwd"
 
 alias edit='subl'
 alias ls='ls -a'
+alias fuck='sudo !!'
 
 . $HOME/env/fancyprompt.sh
 
