@@ -1,11 +1,14 @@
-source ~/.profile
+export HISTIGNORE="ls:pwd"
+export ENV="$HOME/env"
 
 alias edit='subl'
+alias ls='ls -a'
+alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 
-. ~/gitprompt.sh
-#. ~/symbolicateioscrash_alias.sh
+. $ENV/fancyprompt.sh
 
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
 fi
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

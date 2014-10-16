@@ -1,0 +1,90 @@
+[user]
+	name = Miquel Angel Quinones Garcia
+	email = m.quinones.garcia@gmail.com
+[core]
+	excludesfile = $HOME/.gitignore_global
+	whitespace = trailing-space,space-before-tab
+[color]
+	interactive = true
+	showbranch = true
+	status = true
+	ui = auto
+[help]
+	autocorrect = 1
+[advice]
+	pushNonFastForward = false
+	statusHints = false
+	pusshNoFastForward = false
+[diff]
+	renames = copies
+	mnemonicprefix = true
+	tool = Kaleidoscope
+[merge]
+	stat = true
+	tool = Kaleidoscope
+	renamelimit = 5000
+	ff = true
+[push]
+	default = simple
+[branch]
+	autosetupmerge = true
+[rerere]
+	enabled = true
+[alias]
+	p = push
+	co = checkout
+	cl = clone
+	ci = commit
+	cm = commit -m
+	aa = add -A
+	commitall = !git add -A & git commit -m
+	ca = !git add -A & git commit -m
+	am = commit --amend
+	st = status -s
+	br = branch
+	cp = cherry-pick
+	diff = diff --word-diff
+
+	#reset with reflog tracking
+	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+
+	#short form commits
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(yellow)\\ [%cn]" --decorate
+
+	#shows changed files
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(yellow)\\ [%cn]" --decorate --numstat
+
+	#commits of one file
+	filelog = log -u
+	fl = log -u
+
+	#treelike log
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
+	#find filepath in codebase
+	f = !git ls-files | grep -i
+
+	#Search entire codebase for a string
+	grep = grep -Ii
+	gr = grep -Ii
+
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false
