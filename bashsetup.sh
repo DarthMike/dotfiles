@@ -23,11 +23,11 @@ brew install tree
 brew install git bash-completion
 
 echo '...Symlinking env .bash_profile to ~/.bash_profile ...'
-rm ~/.bash_profile
-ln .bash_profile ~/.bash_profile
+rm $HOME/.bash_profile
+ln .bash_profile $HOME/.bash_profile
 
 echo '...Symlinking env .bashrc to ~/.bashrc ...'
-rm ~/.bashrc
-ln .bashrc ~/.bashrc
+rm $HOME/.bashrc
+ln .bashrc $HOME/.bashrc
 
 source .bash_profile
