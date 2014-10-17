@@ -14,6 +14,7 @@ echo '...Installing ruby essentials...'
 gem install cocoapods
 gem install bundler
 gem install sinatra
+gem install nomad-cli
 
 echo '...Installing homebrew essentials...'
 brew install ntfs-3g
