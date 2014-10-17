@@ -31,4 +31,8 @@ echo '...Symlinking env .bashrc to ~/.bashrc ...'
 rm $HOME/.bashrc
 ln .bashrc $HOME/.bashrc
 
+echo '...Symlinking env .gitconfig to ~/.gitconfig'
+rm $HOME/.gitconfig
+ln .gitconfig $HOME/.gitconfig
+
 source .bash_profile

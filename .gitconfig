@@ -1,0 +1,56 @@
+[user]
+	name = Miguel Angel Quinones
+	email = miguel.quinones@corp.badoo.com
+[core]
+	excludesfile = /Volumes/BigSATA/miquHome/.gitignore_global
+	whitespace = trailing-space,space-before-tab
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[color]
+	interactive = true
+	showbranch = true
+	status = true
+	ui = auto
+[help]
+	autocorrect = 1
+[advice]
+	pushNonFastForward = false
+	statusHints = false
+	pusshNoFastForward = false
+[diff]
+	renames = copies
+	mnemonicprefix = true
+	tool = Kaleidoscope
+[merge]
+	stat = true
+	tool = Kaleidoscope
+	renamelimit = 5000
+	ff = true
+[push]
+	default = simple
+[branch]
+	autosetupmerge = true
+[rerere]
+	enabled = true
+[alias]
+	p = push
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false
