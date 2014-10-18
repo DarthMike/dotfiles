@@ -20,6 +20,8 @@ echo '...Installing homebrew essentials...'
 brew install ntfs-3g
 brew install cmake
 brew install pow
+pow --install-system
+pow --install-local
 brew install tree
 brew install git bash-completion
 
