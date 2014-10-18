@@ -1,10 +1,11 @@
 export HISTIGNORE="ls:pwd"
+export ENV="$HOME/env"
 
 alias edit='subl'
 alias ls='ls -a'
 alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 
-. $HOME/env/fancyprompt.sh
+. $ENV/fancyprompt.sh
 
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
