@@ -33,15 +33,41 @@
 [alias]
 	p = push
 	co = checkout
+	cl = clone
 	ci = commit
 	cm = commit -m
 	aa = add -A
-	ca = commit --amend
-	st = status
+	commitall = !git add -A & git commit -m
+	ca = !git add -A & git commit -m
+	am = commit --amend
+	st = status -s
 	br = branch
+	cp = cherry-pick
+	diff = diff --word-diff
+
+	#reset with reflog tracking
+	wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+
+	#short form commits
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+
+	#shows changed files
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+
+	#commits of one file
+	filelog = log -u
+	fl = log -u
+
+	#treelike log
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-	type = cat-file -t
-	dump = cat-file -p
+
+	#find filepath in codebase
+	f = !git ls-files | grep -i
+
+	#Search entire codebase for a string
+	grep = grep -Ii
+	gr = grep -Ii
+
 [difftool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path =
