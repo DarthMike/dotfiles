@@ -11,10 +11,7 @@ rvm install ruby 2.1.1
 rvm use ruby-2.1.1
 
 echo '...Installing ruby essentials...'
-gem install cocoapods
-gem install bundler
-gem install sinatra
-gem install nomad-cli
+gem install cocoapods bundler sinatra nomad-cli
 
 echo '...Installing homebrew essentials...'
 brew install ntfs-3g
