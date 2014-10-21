@@ -11,24 +11,15 @@ rvm install ruby 2.1.1
 rvm use ruby-2.1.1
 
 echo '...Installing ruby essentials...'
-gem install cocoapods bundler sinatra nomad-cli
+gem install bundle
+bundle install
 
 echo '...Installing homebrew essentials...'
-brew install ntfs-3g
-brew install cmake
-brew install pow
-pow --install-system
-pow --install-local
-brew install tree
-brew install git bash-completion
+brew bundle Brewfile
 
-echo '...Symlinking env .bash_profile to ~/.bash_profile ...'
-rm $HOME/.bash_profile
-ln .bash_profile $HOME/.bash_profile
-
-echo '...Symlinking env .bashrc to ~/.bashrc ...'
-rm $HOME/.bashrc
-ln .bashrc $HOME/.bashrc
+echo '...Symlinking env .zhshrc to ~/.zshrc ...'
+rm $HOME/.zshrc
+ln .zshrc $HOME/.zshrc
 
 echo '...Symlinking env .gitconfig to ~/.gitconfig'
 rm $HOME/.gitconfig
