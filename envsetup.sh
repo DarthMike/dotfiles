@@ -28,5 +28,3 @@ ln .gitconfig $HOME/.gitconfig
 echo '...Symlinking .gitignore_global to ~/.gitignore_global'
 rm $HOME/.gitignore_global
 ln .gitignore_global $HOME/.gitignore_global
-
-source .bash_profile
