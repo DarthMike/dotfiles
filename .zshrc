@@ -79,4 +79,4 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias home=git --work-tree=$HOME --git-dir=$HOME/env.git
+alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
