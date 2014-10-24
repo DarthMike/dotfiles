@@ -33,7 +33,7 @@
 	cl = clone
 	ci = commit
 	cm = commit -m
-	aa = add -A
+	aa = add -A :/
 	commitall = !git add -A & git commit -m
 	ca = !git add -A & git commit -m
 	am = commit --amend
