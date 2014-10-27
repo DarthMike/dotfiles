@@ -1,6 +1,7 @@
 #My aliases
 alias edit='subl'
 alias zshrc='subl ~/.zshrc'
+alias ohmy='subl ~/.oh-my-zsh'
 
 alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 

@@ -16,5 +16,9 @@ CUSTOM="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM
 cp aliases.zsh $CUSTOM
 
-echo '...Changing shell to ZSH'
+echo "...Copying zshrc..."
+rm $HOME/.zshrc
+cp .zshrc $HOME
+
+echo '...Changing shell to ZSH...'
 chsh -s /usr/local/bin/zsh
