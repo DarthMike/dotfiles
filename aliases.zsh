@@ -3,6 +3,8 @@ alias edit='subl'
 alias zshrc='subl ~/.zshrc'
 alias ohmy='subl ~/.oh-my-zsh'
 
+alias pu='pod update'
+
 alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 
 #Common dirs

@@ -11,14 +11,14 @@ grep -q -F $NEWSHELL $SHELLS || echo $NEWSHELL >> $SHELLS
 echo "...Installing oh-my-zsh..."
 curl -L http://install.ohmyz.sh | sh
 
-echo "...Copying oh-my-zsh configs..."
+echo "...Linking oh-my-zsh configs..."
 CUSTOM="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM
-cp aliases.zsh $CUSTOM
+ln aliases.zsh $CUSTOM
 
-echo "...Copying zshrc..."
+echo "...Linking zshrc..."
 rm $HOME/.zshrc
-cp .zshrc $HOME
+ln .zshrc $HOME
 
 echo '...Changing shell to ZSH...'
 chsh -s /usr/local/bin/zsh
