@@ -12,3 +12,4 @@ badoo=$HOME/Desktop/projects/BADOO/badooios
 moxie=$HOME/Desktop/projects/BADOO/moxie
 specs=$HOME/Desktop/projects/BADOO/specs
 platform=$HOME/Desktop/projects/BADOO/badooios/Platform
+dotfiles=$HOME/dotfiles.git
