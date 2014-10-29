@@ -8,7 +8,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 echo '...Setting up ruby 2.1.1...'
 rvm install ruby 2.1.1
-rvm use ruby-2.1.1
+rvm alias create default ruby-2.1.1
 
 echo '...Installing ruby essentials...'
 gem install bundle
