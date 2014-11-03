@@ -5,6 +5,6 @@ install tree
 install tmux
 
 install git
-install hub
+install --HEAD hub
 
 install xcproj
