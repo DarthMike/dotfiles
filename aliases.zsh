@@ -7,6 +7,8 @@ alias pu='pod update'
 
 alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 
+alias git=hub
+
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
