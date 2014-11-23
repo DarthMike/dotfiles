@@ -5,7 +5,7 @@ alias ohmy='subl ~/.oh-my-zsh'
 
 alias pu='pod update'
 
-alias fuck='sudo "$BASH" -c "$(history -p !!)"'
+alias fuck='sudo $(fc -ln -1)'
 
 alias git=hub
 
