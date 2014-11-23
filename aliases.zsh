@@ -9,6 +9,8 @@ alias fuck='sudo $(fc -ln -1)'
 
 alias git=hub
 
+alias rake="noglob rake"
+
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
