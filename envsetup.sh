@@ -5,7 +5,7 @@ gem install bundle
 bundle install
 
 echo '...Installing homebrew essentials...'
-brew bundle Brewfile
+./homebrew.sh
 
 echo '...Symlinking env .zhshrc to ~/.zshrc ...'
 rm $HOME/.zshrc
