@@ -8,3 +8,5 @@ install git
 install --HEAD hub
 
 install xcproj
+
+install imagemagick
