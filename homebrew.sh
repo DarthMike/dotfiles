@@ -13,6 +13,9 @@ brew install git
 brew install --HEAD hub
 brew install imagemagick
 
+#IDEs
+brew install ctags
+
 #iOS
 brew install xcproj
 
