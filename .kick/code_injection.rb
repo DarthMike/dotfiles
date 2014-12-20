@@ -2,7 +2,7 @@ recipe :code_injection do
 
   process do |potential_files|
     files = potential_files.take_and_map do |file|
-        if file =~ %r{^.*\.(m|xib|strings)$}
+        if file =~ %r{^.*\.(m|xib|strings|png|jpeg|jpg)$}
           execute("/usr/bin/python #{File.expand_path("~/.dyci/scripts/dyci-recompile.py")} #{File.expand_path(file)}")
           puts "DYCI: Recompiled #{file}"
           file
