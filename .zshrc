@@ -80,3 +80,6 @@ export LANG=en_GB.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
+
+# added by travis gem
+[ -f /Users/mquinones/.travis/travis.sh ] && source /Users/mquinones/.travis/travis.sh
