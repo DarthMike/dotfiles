@@ -21,4 +21,7 @@ brew install xcproj
 
 #Languages
 
+#Libs for libs :)
+brew install phantomjs
+
 brew cleanup
