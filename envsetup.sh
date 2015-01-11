@@ -7,6 +7,9 @@ bundle install
 echo '...Installing homebrew essentials...'
 ./homebrew.sh
 
+echo '...Setting up POW...'
+curl get.pow.cx | sh
+
 echo '...Symlinking env .zhshrc to ~/.zshrc ...'
 rm $HOME/.zshrc
 ln .zshrc $HOME/.zshrc
