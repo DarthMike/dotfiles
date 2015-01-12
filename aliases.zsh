@@ -11,6 +11,8 @@ alias git=hub
 
 alias rake="noglob rake"
 
+alias quarter="git log --since '4 months ago' --author 'Miguel Angel Quinones'"
+
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
