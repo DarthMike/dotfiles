@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'cocoapods'
+gem 'xcodeproj'
 gem 'xcpretty'
 gem 'sinatra'
 gem 'nomad-cli'
