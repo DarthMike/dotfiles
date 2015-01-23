@@ -18,6 +18,7 @@ projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
 badoo=$HOME/Desktop/projects/BADOO/badooios
 moxie=$HOME/Desktop/projects/BADOO/moxie
+moxieclean=$HOME/Desktop/projects/BADOO/moxie_clean
 specs=$HOME/Desktop/projects/BADOO/specs
 platform=$HOME/Desktop/projects/BADOO/badooios/Platform
 dotfiles=$HOME/dotfiles.git
