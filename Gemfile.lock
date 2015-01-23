@@ -246,4 +246,5 @@ DEPENDENCIES
   nomad-cli
   rmagick
   sinatra
+  xcodeproj
   xcpretty
