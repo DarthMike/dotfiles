@@ -1,11 +1,17 @@
 source 'https://rubygems.org'
 
+#iOS
 gem 'cocoapods'
 gem 'xcodeproj'
 gem 'xcpretty'
-gem 'sinatra'
+gem 'crafter'
 gem 'nomad-cli'
+gem 'fastlane'
+
+#Utils
 gem 'kicker'
 gem 'git_stats'
 gem 'rmagick'
-gem 'deliver'
+
+#Web dev
+gem 'sinatra'
