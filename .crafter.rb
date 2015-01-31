@@ -39,31 +39,13 @@ Crafter.configure do
 
   # target specific options, :default is just a name for you, feel free to call it whatever you like
   with :default do
-
-    # each target have set of pods
-    # pods << %w(KZBootstrap)
-
-    # each target can have optional blocks, eg. crafter will ask you if you want to include networking with a project
-    add_option :bootstrap do
-      pods << %w(KZBootstrap KZBootstrap/Logging KZBootstrap/Debug)
-    end
-
-    add_option :networking do
-      pods << 'AFNetworking'
-    end
-
-    add_option :coredata do
-      pods << 'MagicalRecord'
-    end
-
-    # each target can have shell scripts added, in this example we are adding my icon versioning script as in http://www.merowing.info/2013/03/overlaying-application-version-on-top-of-your-icon/
     scripts << {:name => 'icon versioning', :script => Crafter.icon_versioning_script}
-
-    scripts << {:name => 'KZBootstrap setup', :script => '"${SRCROOT}/Pods/KZBootstrap/Pod/Assets/Scripts/bootstrap.sh"'}
   end
 
   with :swift do
-
+    add_option :swift_networking do
+      pods << 'Alamofire'
+    end
   end
 
   # more targets setup
@@ -71,6 +53,11 @@ Crafter.configure do
     add_option :kiwi do
       pods << 'Kiwi'
       scripts << {:name => 'command line unit tests', :script => Crafter.command_line_test_script}
+    end
+
+    add_option :quick do
+      pods << 'Nimble'
+      pods << 'Quick'
     end
   end
 end
