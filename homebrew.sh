@@ -19,6 +19,7 @@ brew install ctags
 #iOS
 brew install xcproj
 brew install chisel
+brew install xctool
 
 #Languages
 
