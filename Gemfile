@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 #iOS
-gem 'cocoapods'
+gem 'cocoapods', '= 0.36.0.beta.2'
 gem 'xcodeproj'
 gem 'xcpretty'
-gem 'crafter'
+# gem 'crafter'
 gem 'nomad-cli'
 gem 'fastlane'
 
