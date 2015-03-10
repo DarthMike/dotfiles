@@ -1,11 +1,27 @@
 source 'https://rubygems.org'
 
-gem 'cocoapods'
+#iOS
+gem 'cocoapods', '= 0.36.0.beta.2'
 gem 'xcodeproj'
 gem 'xcpretty'
-gem 'sinatra'
+# gem 'crafter'
 gem 'nomad-cli'
+gem 'fastlane'
+
+#Cocoapods plugins
+gem 'cocoapods-check_latest'
+gem 'cocoapods-keys'
+gem 'cocoapods-sorted-search'
+gem 'cocoapods-docstats'
+gem 'cocoapods-dependencies'
+gem 'cocoapods-docs'
+gem 'cocoapods-release'
+gem 'cocoapods-clean'
+
+#Utils
 gem 'kicker'
 gem 'git_stats'
 gem 'rmagick'
-gem 'deliver'
+
+#Web dev
+gem 'sinatra'
