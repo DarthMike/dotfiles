@@ -10,6 +10,7 @@ brew install tree
 #Tools
 brew install tmux
 brew install git
+brew install hub
 brew install --HEAD hub
 brew install imagemagick
 
