@@ -5,7 +5,7 @@ Crafter.configure do
 
   # This are projects wide instructions
   add_platform({:platform => :ios, :deployment => 8.0})
-  add_git_ignore
+  #add_git_ignore
   duplicate_configurations({:store => :release, :profiling => :release})
 
   # set of options, warnings, static analyser and anything else normal xcode treats as build options
@@ -32,6 +32,17 @@ Crafter.configure do
     CLANG_WARN_EMPTY_BODY
     CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION
     GCC_WARN_64_TO_32_BIT_CONVERSION
+    GCC_WARN_ABOUT_MISSING_NEWLINE
+    GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS
+    CLANG_WANR_IMPLICIT_SIGN_CONVERSION
+    CLANG_WARN_DOCUMENTATION_DOCUMENTS
+
+    CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS
+    CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES
+
+    CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF
+    CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE
+
 
     RUN_CLANG_STATIC_ANALYZER
     GCC_TREAT_WARNINGS_AS_ERRORS
