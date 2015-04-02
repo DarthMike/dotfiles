@@ -85,3 +85,5 @@
 	trustExitCode = true
 [mergetool]
 	prompt = false
+[status]
+        submoduleSummary = true

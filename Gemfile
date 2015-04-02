@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #iOS
-gem 'cocoapods', '= 0.36.0.beta.2'
+gem 'cocoapods'
 gem 'xcodeproj'
 gem 'xcpretty'
 # gem 'crafter'
