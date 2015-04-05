@@ -21,4 +21,5 @@ moxie=$HOME/Desktop/projects/BADOO/moxie
 moxieclean=$HOME/Desktop/projects/BADOO/moxie_clean
 specs=$HOME/Desktop/projects/BADOO/specs
 platform=$HOME/Desktop/projects/BADOO/badooios/Platform
+boardgamer=$HOME/Desktop/projects/boardgamer
 dotfiles=$HOME/dotfiles.git
