@@ -7,6 +7,7 @@ gem 'xcpretty'
 # gem 'crafter'
 gem 'nomad-cli'
 gem 'fastlane'
+gem 'xcode-install'
 
 #Cocoapods plugins
 gem 'cocoapods-check_latest'
