@@ -319,6 +319,9 @@ GEM
     websocket-driver (0.5.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    xcode-install (0.0.1)
+      claide (~> 0.8.1)
+      fastlane_core
     xcodeproj (0.23.1)
       activesupport (>= 3)
       colored (~> 1.2)
@@ -345,5 +348,9 @@ DEPENDENCIES
   nomad-cli
   rmagick
   sinatra
+  xcode-install
   xcodeproj
   xcpretty
+
+BUNDLED WITH
+   1.10.6
