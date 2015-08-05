@@ -10,3 +10,4 @@ brew tap homebrew/boneyard
 echo '...Setting up ruby 2.1.1...'
 rvm install ruby 2.1.1
 rvm alias create default ruby-2.1.1
+rvm reload
