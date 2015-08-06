@@ -13,3 +13,7 @@ echo "VVDocumenter-Xcode: https://github.com/onevcat/VVDocumenter-Xcode"
 echo "Clanformat-Xcode: https://github.com/travisjeffery/ClangFormat-Xcode"
 echo "Lin: https://github.com/questbeat/Lin-Xcode5"
 echo "************************"
+
+echo '...Symlinking .xvimrc to ~/.xvimrc'
+rm $HOME/.xvimrc
+ln .xvimrc $HOME/.xvimrc
