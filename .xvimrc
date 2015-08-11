@@ -1,6 +1,9 @@
 i kk <Esc>
 set incsearch
 
+" Set relative line numbers
+set relativenumber
+
 " Case-insensitive searching.
 set ignorecase
 
