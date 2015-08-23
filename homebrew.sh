@@ -22,6 +22,7 @@ brew install xcproj
 brew install chisel
 brew install xctool
 brew install carthage
+brew install swiftlint
 
 #Languages
 
