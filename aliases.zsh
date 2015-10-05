@@ -16,10 +16,6 @@ alias quarter="git log --since '4 months ago' --author 'Miguel Angel Quinones'"
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
-badoo=$HOME/Desktop/projects/BADOO/badooios
-moxie=$HOME/Desktop/projects/BADOO/moxie
-moxieclean=$HOME/Desktop/projects/BADOO/moxie_clean
-specs=$HOME/Desktop/projects/BADOO/specs
-platform=$HOME/Desktop/projects/BADOO/badooios/Platform
+peak=$HOME/Desktop/projects/peak/sharper
 boardgamer=$HOME/Desktop/projects/boardgamer
 dotfiles=$HOME/dotfiles.git
