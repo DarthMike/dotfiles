@@ -87,3 +87,5 @@
 	prompt = false
 [status]
         submoduleSummary = true
+[credential]
+	helper = osxkeychain
