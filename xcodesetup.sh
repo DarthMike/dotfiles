@@ -17,3 +17,9 @@ echo "************************"
 echo '...Symlinking .xvimrc to ~/.xvimrc'
 rm $HOME/.xvimrc
 ln .xvimrc $HOME/.xvimrc
+
+echo '...Setting up mergepbx...'
+git clone https://github.com/simonwagner/mergepbx
+pushd mergepbx
+./build.py
+popd
