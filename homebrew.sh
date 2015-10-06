@@ -13,6 +13,7 @@ brew install git
 brew install hub
 brew install --HEAD hub
 brew install imagemagick
+brew intall gource
 
 #IDEs
 brew install ctags
