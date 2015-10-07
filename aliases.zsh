@@ -13,6 +13,8 @@ alias rake="noglob rake"
 
 alias quarter="git log --since '4 months ago' --author 'Miguel Angel Quinones'"
 
+alias objcdep="python objc_dep.py . > objcdep.dot"
+
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
