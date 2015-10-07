@@ -1,6 +1,7 @@
 [core]
 	excludesfile = $HOME/.gitignore_global
 	whitespace = trailing-space,space-before-tab
+	attributesfile = $HOME/.gitattributes
 [color]
 	interactive = true
 	showbranch = true
