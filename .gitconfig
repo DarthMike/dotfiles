@@ -19,7 +19,7 @@
 	tool = Kaleidoscope
 [merge]
 	stat = true
-	tool = Kaleidoscope
+	tool = sourcetree
 	renamelimit = 5000
 	ff = true
 [merge "mergepbx"]
