@@ -13,7 +13,8 @@ brew install git
 brew install hub
 brew install --HEAD hub
 brew install imagemagick
-brew intall gource
+brew install gource
+brew install mergepbx
 
 #IDEs
 brew install ctags
