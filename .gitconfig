@@ -24,7 +24,7 @@
 	ff = true
 [merge "mergepbx"]
         name = Xcode project files merger
-        driver = mergepbx %O %A %B
+        driver = /usr/local/bin/mergepbx %O %A %B
 [push]
 	default = simple
 [branch]
