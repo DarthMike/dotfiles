@@ -90,7 +90,7 @@
 [mergetool]
 	prompt = false
 [mergetool "mergepbx"]
-    cmd = mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
+    cmd = /usr/local/bin/mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
 [status]
         submoduleSummary = true
 [credential]
