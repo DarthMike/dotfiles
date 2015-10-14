@@ -23,4 +23,4 @@ boardgamer=$HOME/Desktop/projects/boardgamer
 dotfiles=$HOME/dotfiles.git
 
 #PEAK
-pull-requests='open https://github.com/brainbow/sharper/pull'
+alias pull-requests="open https://github.com/brainbow/sharper/pull"
