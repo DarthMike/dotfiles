@@ -27,6 +27,7 @@ brew install carthage
 brew install swiftlint
 
 #Languages
+brew install npm
 
 #Libs for libs :)
 brew install phantomjs
