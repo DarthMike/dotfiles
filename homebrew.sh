@@ -15,6 +15,7 @@ brew install --HEAD hub
 brew install imagemagick
 brew install gource
 brew install mergepbx
+brew install sloccount
 
 #IDEs
 brew install ctags
