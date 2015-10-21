@@ -28,3 +28,7 @@ echo '...Setting up objc_dep...'
 rm -rf objc_dep
 git clone https://github.com/nst/objc_dep
 cp objc_dep/objc_dep.py $HOME
+
+echo '...Setting up chisel...'
+rm $HOME/.lldbinit
+ln .lldbinit $HOME/.lldbinit
