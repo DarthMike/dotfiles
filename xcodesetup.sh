@@ -41,3 +41,7 @@ pushd dyci-main
 ./Install/uninstall.sh
 ./Install/install.sh
 popd
+
+rm -rf $HOME/.kick
+ln .kick/code_injection.rb $HOME/.kick/code_injection.rb
+
