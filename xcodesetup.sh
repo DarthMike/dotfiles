@@ -38,7 +38,7 @@ echo '...Setting up dyci...'
 rm -rf dyci-main
 git clone https://github.com/DyCI/dyci-main
 pushd dyci-main
-./Install/install.sh
+./Install/install.sh -s
 popd
 
 rm -rf $HOME/.kick
