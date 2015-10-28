@@ -42,5 +42,6 @@ pushd dyci-main
 popd
 
 rm -rf $HOME/.kick
+mkdir $HOME/.kick
 ln .kick/code_injection.rb $HOME/.kick/code_injection.rb
 
