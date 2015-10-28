@@ -33,3 +33,11 @@ cp objc_dep/objc_dep.py $HOME
 echo '...Setting up chisel...'
 rm $HOME/.lldbinit
 ln .lldbinit $HOME/.lldbinit
+
+echo '...Setting up dyci...'
+rm -rf dyci-main
+git clone https://github.com/DyCI/dyci-main
+pushd dyci-main
+./Install/uninstall.sh
+./Install/install.sh
+popd
