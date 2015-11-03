@@ -6,6 +6,7 @@ brew upgrade
 #System
 brew install ntfs-3g
 brew install tree
+brew install gpg2
 
 #Tools
 brew install tmux
