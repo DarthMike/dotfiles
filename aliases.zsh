@@ -1,7 +1,7 @@
 #My aliases
-alias edit='subl'
-alias zshrc='subl ~/.zshrc'
-alias ohmy='subl ~/.oh-my-zsh'
+alias edit='atom'
+alias zshrc='edit ~/.zshrc'
+alias ohmy='edit ~/.oh-my-zsh'
 
 alias pu='pod update'
 
