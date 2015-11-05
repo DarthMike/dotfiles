@@ -19,12 +19,6 @@ echo '...Symlinking .xvimrc to ~/.xvimrc'
 rm $HOME/.xvimrc
 ln .xvimrc $HOME/.xvimrc
 
-echo '...Setting up mergepbx...'
-git clone https://github.com/simonwagner/mergepbx
-pushd mergepbx
-./build.py
-popd
-
 echo '...Setting up objc_dep...'
 rm -rf objc_dep
 git clone https://github.com/nst/objc_dep
