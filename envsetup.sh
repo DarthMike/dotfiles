@@ -26,6 +26,6 @@ echo '...Symlinking .gitignore_global to ~/.gitignore_global'
 rm $HOME/.gitignore_global
 ln .gitignore_global $HOME/.gitignore_global
 
-echo '...Symlinking .gitattributes to ~/.gitattributes'
-rm $HOME/.gitattributes
-ln .gitattributes $HOME/.gitattributes
+echo '...Symlinking .gitattributes_global to ~/.gitattributes_global'
+rm $HOME/.gitattributes_global
+ln .gitattributes_global $HOME/.gitattributes_global
