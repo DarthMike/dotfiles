@@ -2,3 +2,4 @@ mergepbx
 objc_dep
 dyci-main
 atom
+*.lock
