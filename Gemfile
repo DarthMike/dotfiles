@@ -25,5 +25,8 @@ gem 'kicker'
 gem 'git_stats'
 gem 'rmagick'
 
+#Dotfiles management
+gem 'dit'
+
 #Web dev
 gem 'sinatra'

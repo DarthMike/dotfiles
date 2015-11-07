@@ -16,10 +16,6 @@ CUSTOM="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM
 ln aliases.zsh $CUSTOM
 
-echo "...Linking zshrc..."
-rm $HOME/.zshrc
-ln .zshrc $HOME
-
 echo '...Changing shell to ZSH...'
 chsh -s /usr/local/bin/zsh
 echo 'Change shell by adding to /etc/shells "/usr/local/bin/zsh"'
