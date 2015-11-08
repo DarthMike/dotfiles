@@ -32,6 +32,7 @@
 	enabled = true
 [alias]
 	p = push
+	pl = pull
 	co = checkout
 	cl = clone
 	ci = commit
