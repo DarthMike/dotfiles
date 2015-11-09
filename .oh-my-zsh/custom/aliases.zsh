@@ -19,6 +19,10 @@ alias objcdep="python objc_dep.py . > objcdep.dot"
 alias gpl='git pull'
 alias gp='git push'
 
+#pods
+alias pu='pod update'
+alias pi='pod install'
+
 #Common dirs
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
