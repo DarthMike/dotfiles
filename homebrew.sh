@@ -30,6 +30,8 @@ brew install swiftlint
 
 #Languages/Frameworks
 brew install node
+brew install python
+brew install python3
 
 #Libs for libs :)
 brew install phantomjs
