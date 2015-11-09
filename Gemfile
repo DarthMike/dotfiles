@@ -13,7 +13,6 @@ gem 'jazzy'
 #Cocoapods plugins
 gem 'cocoapods-check_latest'
 gem 'cocoapods-keys'
-gem 'cocoapods-sorted-search'
 gem 'cocoapods-docstats'
 gem 'cocoapods-dependencies'
 gem 'cocoapods-docs'
