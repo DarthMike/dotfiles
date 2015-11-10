@@ -11,3 +11,8 @@ echo '...Setting up ruby 2.1.2...'
 rvm install ruby 2.1.2
 rvm alias create default ruby-2.1.2
 rvm reload
+
+echo '...Installing wireshark...'
+echo '...Downloading development version 2.0.0... Check if it's released!'
+curl https://1.na.dl.wireshark.org/osx/Wireshark%202.0.0rc2%20Intel%2064.dmg > wireshark.dmg
+open wireshark.dmg

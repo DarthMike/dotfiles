@@ -3,3 +3,4 @@ objc_dep
 dyci-main
 atom
 *.lock
+*.dmg
