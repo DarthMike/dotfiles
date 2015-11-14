@@ -17,6 +17,7 @@ brew install imagemagick
 brew install gource
 brew install mergepbx
 brew install sloccount
+brew install graphviz
 
 #IDEs
 brew install ctags
