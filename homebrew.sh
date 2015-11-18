@@ -28,6 +28,8 @@ brew install chisel
 brew install xctool
 brew install carthage
 brew install swiftlint
+brew tap thoughtbot/formulae
+brew install liftoff
 
 #Languages/Frameworks
 brew install node
