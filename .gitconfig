@@ -92,6 +92,6 @@
 [mergetool "mergepbx"]
     cmd = /usr/local/bin/mergepbx "$BASE" "$LOCAL" "$REMOTE" -o "$MERGED"
 [status]
-        submoduleSummary = true
+    submoduleSummary = true
 [credential]
 	helper = osxkeychain
