@@ -21,6 +21,7 @@ brew install graphviz
 
 #IDEs
 brew install ctags
+brew install spim
 
 #iOS
 brew install xcproj
@@ -38,5 +39,9 @@ brew install python3
 
 #Libs for libs :)
 brew install phantomjs
+
+#Apps
+brew cask install qtspim
+#brew cask install google-chrome
 
 brew cleanup
