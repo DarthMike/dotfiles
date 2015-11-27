@@ -30,3 +30,6 @@ gem 'dit'
 #Web dev
 gem 'sinatra'
 gem 'powder'
+
+#Utils
+gem 'terminal-notifier'

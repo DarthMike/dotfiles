@@ -20,7 +20,7 @@ alias gpl='git pull'
 alias gp='git push'
 
 #xcode
-alias injection='kicker -r code_injection'
+alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
 
 #pods
 alias pu='pod update'
