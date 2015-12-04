@@ -40,6 +40,10 @@ brew cask install haskell-platform
 #Libs for libs :)
 brew install phantomjs
 
+#Build tools
+brew install ninja
+brew install cmake
+
 #Apps
 brew cask install qtspim
 #brew cask install google-chrome
