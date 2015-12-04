@@ -32,6 +32,7 @@ blog=$HOME/Sites/blog
 peak=$HOME/Desktop/projects/peak/sharper
 boardgamer=$HOME/Desktop/projects/boardgamer
 dotfiles=$HOME/dotfiles.git
+swiftdir=$HOME/Desktop/projects/apple/swift
 
 #PEAK
 alias pull-requests="open https://github.com/brainbow/sharper/pull"
