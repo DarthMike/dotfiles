@@ -35,4 +35,4 @@ dotfiles=$HOME/dotfiles.git
 swiftdir=$HOME/Desktop/projects/apple/swift
 
 #PEAK
-alias pull-requests="open https://github.com/brainbow/sharper/pull"
+alias pull-requests="open https://github.com/brainbow/sharper/pulls"
