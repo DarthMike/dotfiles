@@ -14,7 +14,7 @@ curl -L http://install.ohmyz.sh | sh
 echo "...Linking oh-my-zsh configs..."
 CUSTOM="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM
-ln aliases.zsh $CUSTOM
+ln .oh-my-zsh/custom/aliases.zsh $CUSTOM
 
 echo '...Changing shell to ZSH...'
 chsh -s $NEWSHELL
