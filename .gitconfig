@@ -69,6 +69,9 @@
 	grep = grep -Ii
 	gr = grep -Ii
 
+	#LOL https://github.com/keith/dotfiles/blob/master/gitconfig
+	wtc = !sh -c 'git commit $@ -m \""`curl -s http://whatthecommit.com/index.txt`"\"' -
+
 [difftool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path =
