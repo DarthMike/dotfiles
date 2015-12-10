@@ -13,6 +13,8 @@ echo "VVDocumenter-Xcode: https://github.com/onevcat/VVDocumenter-Xcode"
 echo "Clanformat-Xcode: https://github.com/travisjeffery/ClangFormat-Xcode"
 echo "Lin: https://github.com/questbeat/Lin-Xcode5"
 echo "XCActionBar: https://github.com/pdcgomes/XCActionBar"
+echo "AutoIdentWithSave: https://github.com/ThilinaHewagama/AutoIndentWithSave"
+echo "KZLinkedConsole: https://github.com/krzysztofzablocki/KZLinkedConsole"
 echo "************************"
 
 echo '...Symlinking .xvimrc to ~/.xvimrc'
