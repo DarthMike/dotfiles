@@ -21,6 +21,7 @@ alias gplr='git pull --rebase=true'
 alias gp='git push'
 alias gs='git stash'
 alias gsp='git stash pop'
+alias gdc='git diff --cached'
 
 #xcode
 alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
