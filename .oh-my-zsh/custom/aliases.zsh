@@ -17,6 +17,7 @@ alias objcdep="python objc_dep.py . > objcdep.dot"
 
 #git
 alias gpl='git pull'
+alias gplr='git pull --rebase=true'
 alias gp='git push'
 
 #xcode
