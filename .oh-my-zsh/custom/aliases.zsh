@@ -34,7 +34,7 @@ alias pi='pod install'
 projects=$HOME/Desktop/projects/
 blog=$HOME/Sites/blog
 peak=$HOME/Desktop/projects/peak/sharper
-boardgamer=$HOME/Desktop/projects/boardgamer
+boardgamer=$HOME/Desktop/projects/personal/boardgamer-app
 dotfiles=$HOME/dotfiles.git
 swiftdir=$HOME/Desktop/projects/apple/swift
 
