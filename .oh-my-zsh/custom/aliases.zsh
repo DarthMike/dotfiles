@@ -3,8 +3,6 @@ alias edit='atom'
 alias zshrc='edit ~/.zshrc'
 alias ohmy='edit ~/.oh-my-zsh'
 
-alias pu='pod update'
-
 alias fuck='sudo $(fc -ln -1)'
 
 alias git=hub
@@ -23,10 +21,8 @@ alias gs='git stash'
 alias gsp='git stash pop'
 alias gdc='git diff --cached'
 
-#xcode
+#ios
 alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
-
-#pods
 alias pu='pod update'
 alias pi='pod install'
 
