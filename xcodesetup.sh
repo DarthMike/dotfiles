@@ -41,3 +41,9 @@ rm -rf $HOME/.kick
 mkdir $HOME/.kick
 ln .kick/code_injection.rb $HOME/.kick/code_injection.rb
 
+echo '...Installing templates...'
+echo '...Kiwi...'
+rm -rf $HOME/Kiwi
+git clone https://github.com/kiwi-bdd/Kiwi
+./Kiwi/Xcode\ Templates/install-templates.sh
+rm -rf $HOME/Kiwi
