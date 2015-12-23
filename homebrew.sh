@@ -31,12 +31,13 @@ brew install carthage
 brew install swiftlint
 brew tap thoughtbot/formulae
 brew install liftoff
+brew install neonichu/formulae/azkaban
 
 #Languages/Frameworks
 brew install node
 brew install python
 brew install python3
-brew cask install haskell-platform 
+brew cask install haskell-platform
 #Libs for libs :)
 brew install phantomjs
 
