@@ -18,6 +18,7 @@ brew install gource
 brew install mergepbx
 brew install sloccount
 brew install graphviz
+brew install fzf
 
 #IDEs
 brew install ctags
