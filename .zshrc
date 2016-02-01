@@ -81,5 +81,13 @@ export LANG=en_GB.UTF-8
 
 alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
 
+# Key binding for vim-mode
+# https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
+bindkey -v
+# Key binding for incremental history (vim mode)
+bindkey ‘^R’ history-incremental-search-backward
+# Map alternate 'ESC' to 'jj'
+#bindkey -M viins ‘jj’ vi-cmd-mode
+
 # added by travis gem
 [ -f /Users/mquinones/.travis/travis.sh ] && source /Users/mquinones/.travis/travis.sh
