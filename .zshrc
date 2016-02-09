@@ -5,7 +5,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="jnrowe"
+# ZSH_THEME="jnrowe"
+# ZSH_THEME="pure"
+ZSH_THEME="murilasso"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -85,6 +87,8 @@ alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
 # https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
 bindkey -v
 # Key binding for incremental history (vim mode)
+bindkey "^[[A" history-substring-search-up
+bindkey "^[[B" history-substring-search-down
 bindkey ‘^R’ history-incremental-search-backward
 # Map alternate 'ESC' to 'jj'
 #bindkey -M viins ‘jj’ vi-cmd-mode
