@@ -19,6 +19,7 @@ brew install mergepbx
 brew install sloccount
 brew install graphviz
 brew install fzf
+brew install checkbashisms
 
 #IDEs
 brew install ctags
