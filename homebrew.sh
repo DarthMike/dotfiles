@@ -25,6 +25,9 @@ brew install checkbashisms
 brew install ctags
 brew install spim
 
+#Swift
+brew install kylef/formulae/swiftenv
+
 #iOS
 brew install xcproj
 brew install chisel
