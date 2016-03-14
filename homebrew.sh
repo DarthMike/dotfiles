@@ -20,6 +20,7 @@ brew install sloccount
 brew install graphviz
 brew install fzf
 brew install checkbashisms
+brew install ffmpeg
 
 #IDEs
 brew install ctags
