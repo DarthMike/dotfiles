@@ -22,7 +22,6 @@ gem 'cocoapods-clean'
 #Utils
 gem 'kicker'
 gem 'git_stats'
-gem 'rmagick'
 
 #Dotfiles management
 gem 'dit'
@@ -33,3 +32,6 @@ gem 'powder'
 
 #Utils
 gem 'terminal-notifier'
+
+#..
+gem 'lolcommits'
