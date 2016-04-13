@@ -584,7 +584,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>519 161 924 485 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 152 1402 725 0 0 1440 877 </string>
+	<string>0 332 1920 725 0 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1341,12 +1341,14 @@
 			<string>/Users/miqu</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>465737564.08990997</real>
+	<real>477573690.927311</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>476809565.23449099</real>
+	<real>481712524.92404801</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1355,6 +1357,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>1</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PassOnControlClick</key>
 	<false/>
 	<key>PasteFromClipboard</key>
@@ -1380,7 +1384,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-10T14:26:04Z</date>
+	<date>2016-04-07T09:02:03Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
