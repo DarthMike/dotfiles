@@ -50,3 +50,8 @@ rm -rf $HOME/Kiwi
 git clone https://github.com/kiwi-bdd/Kiwi
 ./Kiwi/Xcode\ Templates/install-templates.sh
 rm -rf $HOME/Kiwi
+
+echo '...Setting up build times visualization...'
+echo 'Check here: http://tonyarnold.com/2016/04/20/xcode-build-duration.html'
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+
