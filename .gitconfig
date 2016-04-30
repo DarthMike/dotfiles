@@ -55,6 +55,9 @@
 	#shows changed files
 	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%C(yellow)\\ [%cn]" --decorate --numstat
 
+	#graph
+	graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
+
 	#commits of one file
 	filelog = log -u
 	fl = log -u
