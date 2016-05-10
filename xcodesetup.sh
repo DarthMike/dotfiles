@@ -18,6 +18,7 @@ echo "KZLinkedConsole: https://github.com/krzysztofzablocki/KZLinkedConsole"
 echo "Refactorator: https://github.com/johnno1962/Refactorator"
 echo "KSImageNamed: https://github.com/ksuther/KSImageNamed-Xcode"
 echo "Solarized: https://github.com/ArtSabintsev/Solarized-Dark-for-Xcode"
+echo "BuildTimeAnalizer: https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode"
 echo "************************"
 
 echo '...Symlinking .xvimrc to ~/.xvimrc'
