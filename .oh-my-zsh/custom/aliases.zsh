@@ -23,8 +23,8 @@ alias gdc='git diff --cached'
 
 #ios
 alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
-alias pu='pod update'
-alias pi='pod install'
+alias pu='bundle exec pod update'
+alias pi='bundle exec pod install'
 
 #Common dirs
 projects=$HOME/Desktop/projects/
