@@ -4,5 +4,5 @@ dyci-main
 atom
 *.lock
 *.dmg
-.oh-my-zsh/custom/pure.zsh
-.oh-my-zsh/custom/async.zsh
+.oh-my-zsh/custom/themes/async.zsh
+.oh-my-zsh/custom/themes/purecustom.zsh-theme

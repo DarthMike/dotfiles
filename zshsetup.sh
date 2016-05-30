@@ -15,13 +15,13 @@ echo "...Linking oh-my-zsh configs..."
 CUSTOM_ALIASES="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM_ALIASES
 ln .oh-my-zsh/custom/aliases.zsh $CUSTOM_ALIASES
-ASYNC_PATH=".oh-my-zsh/custom/async.zsh"
-PURE_PATH=".oh-my-zsh/custom/pure.zsh"
+ASYNC_PATH=".oh-my-zsh/custom/themes/async.zsh"
+PURE_PATH=".oh-my-zsh/custom/themes/purecustom.zsh-theme"
 rm -rf ASYNC_PATH
 rm -rf PURE_PATH
 git submodule update --init --recursive
-cp pure/asynch.zsh $ASYNC_PATH
-cp pure/pure.zsh $PURE_PATH
+ln pure/async.zsh $ASYNC_PATH
+ln pure/pure.zsh $PURE_PATH
 
 echo '...Changing shell to ZSH...'
 chsh -s $NEWSHELL
