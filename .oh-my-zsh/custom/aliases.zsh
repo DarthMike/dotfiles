@@ -27,12 +27,12 @@ alias pu='bundle exec pod update'
 alias pi='bundle exec pod install'
 
 #Common dirs
-projects=$HOME/Desktop/projects/
-blog=$HOME/Sites/blog
-peak=$HOME/Desktop/projects/peak/sharper
-boardgamer=$HOME/Desktop/projects/personal/boardgamer-app
-dotfiles=$HOME/dotfiles.git
-swiftdir=$HOME/Desktop/projects/apple/swift
+alias peak='cd $HOME/Desktop/projects/'
+alias blog='cd $HOME/Sites/blog'
+alias peak='cd $HOME/Desktop/projects/peak/sharper'
+alias boardgamer='cd $HOME/Desktop/projects/personal/boardgamer-app'
+alias dotfiles='cd $HOME/dotfiles.git'
+alias swiftdir='cd $HOME/Desktop/projects/apple/swift'
 
 #PEAK
 alias prs="open https://github.com/brainbow/sharper/pulls"
