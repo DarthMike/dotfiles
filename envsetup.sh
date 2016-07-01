@@ -14,4 +14,8 @@ echo '...Installing python essentials...'
 number_of_cores=`sysctl -n hw.ncpu`
 bundle config --global jobs `expr $number_of_cores - 1`
 
-
+echo '...Installing mac-cli'
+sudo rm -rf mac-cli
+git clone https://github.com/guarinogabriel/mac-cli.git && pushd mac-cli
+sh mac install:all
+popd

@@ -6,3 +6,4 @@ atom
 *.dmg
 .oh-my-zsh/custom/themes/async.zsh
 .oh-my-zsh/custom/themes/purecustom.zsh-theme
+mac-cli
