@@ -38,6 +38,7 @@ brew install swiftlint
 brew tap thoughtbot/formulae
 brew install liftoff
 brew install neonichu/formulae/azkaban
+brew install sourcekitten
 
 #Languages/Frameworks
 brew install node
