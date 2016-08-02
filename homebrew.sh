@@ -45,6 +45,8 @@ brew install node
 brew install python
 brew install python3
 brew cask install haskell-platform
+brew install go --cross-compile-common
+
 #Libs for libs :)
 brew install phantomjs
 
