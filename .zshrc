@@ -52,8 +52,9 @@ plugins=(git osx sublime colored-man web-search brew pod pow common-aliases xcod
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export GOPATH=$HOME/Desktop/projects/go
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME:$GOPATH/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
