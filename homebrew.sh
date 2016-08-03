@@ -11,6 +11,8 @@ brew install gpg2
 #Tools
 brew install tmux
 brew install git
+brew install hg
+brew install bzr
 brew install hub
 brew install --HEAD hub
 brew install imagemagick
