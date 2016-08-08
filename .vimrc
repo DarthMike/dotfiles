@@ -12,3 +12,5 @@ set smartcase
 " Default to global substitutions on lines
 set gdefault
 
+" Enable syntax highlight by default
+syntax on
