@@ -4,3 +4,6 @@
 [submodule "pure"]
 	path = pure
 	url = https://github.com/sindresorhus/pure
+[submodule "thoughtbot-dotfiles"]
+	path = thoughtbot-dotfiles
+	url = https://github.com/thoughtbot/dotfiles
