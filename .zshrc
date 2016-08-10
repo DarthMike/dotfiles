@@ -87,6 +87,9 @@ export LANG=en_GB.UTF-8
 
 alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
 
+# z (jump around utility)
+. `brew --prefix`/etc/profile.d/z.sh
+
 # Key binding for vim-mode
 # https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
 bindkey -v

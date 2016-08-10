@@ -23,6 +23,7 @@ brew install graphviz
 brew install fzf
 brew install checkbashisms
 brew install ffmpeg
+brew install z
 
 #IDEs
 brew install ctags
