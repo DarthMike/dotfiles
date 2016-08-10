@@ -51,6 +51,9 @@ plugins=(git osx sublime colored-man web-search brew pod pow common-aliases xcod
 
 source $ZSH/oh-my-zsh.sh
 
+# Source syntax highlighting
+source zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
+
 # User configuration
 export GOPATH=$HOME/Desktop/projects/go
 

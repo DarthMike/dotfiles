@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo '...Updating submodules...'
+git submodule update --init --recursive
+
 echo '...Installing homebrew essentials...'
 ./homebrew.sh
 
