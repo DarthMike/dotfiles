@@ -13,6 +13,9 @@ alias quarter="git log --since '4 months ago' --author 'Miguel Angel Quinones'"
 
 alias objcdep="python objc_dep.py . > objcdep.dot"
 
+#system
+alias lock='mac lock'
+
 #git
 alias gpl='git pull'
 alias gplr='git pull --rebase=true'
