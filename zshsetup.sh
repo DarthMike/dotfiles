@@ -1,12 +1,15 @@
 #!/bin/sh
 
-echo "...Installing homebrew zsh..."
-brew install zsh
 
-echo "...Adding hombrew zsh to /etc/shells "
-NEWSHELL="/usr/local/bin/zsh"
-SHELLS="/etc/shells"
-grep -q -F $NEWSHELL $SHELLS || echo $NEWSHELL >> $SHELLS
+if hash brew 2>/dev/null; then
+echo "...Installing homebrew zsh..."
+	brew install zsh
+
+	echo "...Adding hombrew zsh to /etc/shells "
+	NEWSHELL="/usr/local/bin/zsh"
+	SHELLS="/etc/shells"
+	grep -q -F $NEWSHELL $SHELLS || echo $NEWSHELL >> $SHELLS
+fi
 
 echo "...Installing oh-my-zsh..."
 curl -L http://install.ohmyz.sh | sh
@@ -23,6 +26,8 @@ git submodule update --init --recursive
 ln pure/async.zsh $ASYNC_PATH
 ln pure/pure.zsh $PURE_PATH
 
-echo '...Changing shell to ZSH...'
-chsh -s $NEWSHELL
-echo 'Change shell by adding to /etc/shells "/usr/local/bin/zsh"'
+if hash brew 2>/dev/null; then
+	echo '...Changing shell to ZSH...'
+	chsh -s $NEWSHELL
+	echo 'Change shell by adding to /etc/shells "/usr/local/bin/zsh"'
+fi
