@@ -60,6 +60,9 @@ brew install phantomjs
 brew install ninja
 brew install cmake
 
+#Blog
+brew install hugo
+
 #Apps
 brew cask install qtspim
 #brew cask install google-chrome
