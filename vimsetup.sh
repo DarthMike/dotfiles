@@ -7,4 +7,6 @@ curl -fLo .vim/autoload/plug.vim --create-dirs \
 echo "...Copying thoughtbot files..."
 cp -rf thoughtbot-dotfiles/vim/ftplugin .vim/ftplugin
 
+echo "IMPORTANT: Remember to run :PlugInstall or :PlugUpdate"
+
 
