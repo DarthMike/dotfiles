@@ -47,7 +47,7 @@ ZSH_THEME="purecustom"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx sublime colored-man web-search brew pod pow common-aliases xcode)
+plugins=(git osx sublime colored-man web-search pod pow common-aliases xcode)
 
 source $ZSH/oh-my-zsh.sh
 
