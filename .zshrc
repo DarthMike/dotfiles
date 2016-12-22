@@ -85,8 +85,6 @@ export LANG=en_GB.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias home="git --work-tree=$HOME --git-dir=$HOME/env.git"
-
 # z (jump around utility)
 . `brew --prefix`/etc/profile.d/z.sh
 
