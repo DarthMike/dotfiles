@@ -33,5 +33,3 @@ gem 'powder'
 #Utils
 gem 'terminal-notifier'
 
-#..
-gem 'lolcommits'
