@@ -26,8 +26,8 @@ alias gdc='git diff --cached'
 
 #ios
 alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
-alias pu='bundle exec pod update'
-alias pi='bundle exec pod install'
+alias pu='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod update && open -a Xcode'
+alias pi='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod install && open -a Xcode'
 
 #Common dirs
 alias peak='cd $HOME/Desktop/projects/'
