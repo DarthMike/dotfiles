@@ -56,8 +56,9 @@ source zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 export GOPATH=$HOME/Desktop/projects/go
+export JAVAPATH=$HOME/Desktop/projects/java
 
-export PATH="/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME:$GOPATH/bin"
+export PATH="/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME:$GOPATH/bin:$JAVAPATH:$JAVAPATH/apache-maven-3.3.9/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
