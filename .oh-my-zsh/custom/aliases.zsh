@@ -38,7 +38,7 @@ alias dotfiles='cd $HOME/dotfiles.git'
 alias swiftdir='cd $HOME/Desktop/projects/apple/swift'
 
 #PEAK
-alias prs="open https://github.com/brainbow/sharper/pulls"
+alias prs="open https://github.com/brainbow/peak-brain-training/pulls"
 
 function brew.info {
   grep desc $(brew --prefix)/Library/Formula/*.rb | perl -ne 'm{^.*/(.*?)\.rb.*?\"(.*)"$} and print "$1|$2\n"' | column -t -s '|' | fzf --reverse
