@@ -32,7 +32,7 @@ alias pi='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod install && 
 #Common dirs
 alias peak='cd $HOME/Desktop/projects/'
 alias blog='cd $HOME/Sites/blog'
-alias peak='cd $HOME/Desktop/projects/peak/sharper'
+alias peak='cd $HOME/Desktop/projects/peak/peak-brain-training'
 alias boardgamer='cd $HOME/Desktop/projects/personal/boardgamer-app'
 alias dotfiles='cd $HOME/dotfiles.git'
 alias swiftdir='cd $HOME/Desktop/projects/apple/swift'
