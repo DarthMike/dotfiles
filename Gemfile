@@ -32,4 +32,4 @@ gem 'powder'
 
 #Utils
 gem 'terminal-notifier'
-
+gem 'travis'
