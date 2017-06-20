@@ -28,6 +28,7 @@ alias gdc='git diff --cached'
 alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
 alias pu='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod update && open -a Xcode'
 alias pi='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod install && open -a Xcode'
+alias xcd='/Applications/Xcode.app/Contents/MacOS/Xcode -ShowDVTDebugMenu YES'
 
 #Common dirs
 alias blog='cd $HOME/Sites/blog'
