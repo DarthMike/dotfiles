@@ -26,6 +26,7 @@ brew install checkbashisms
 brew install ffmpeg
 brew install z
 brew install jq
+brew install cloc
 
 #IDEs
 brew install ctags
