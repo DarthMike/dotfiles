@@ -33,10 +33,10 @@ alias xcd='/Applications/Xcode.app/Contents/MacOS/Xcode -ShowDVTDebugMenu YES'
 #Common dirs
 alias blog='cd $HOME/Sites/blog'
 alias personal='cd $HOME/Desktop/projects/personal'
-alias peak='cd $HOME/Desktop/projects/peak/peak-brain-training/client/ios'
 alias boardgamer='cd $HOME/Desktop/projects/personal/boardgamer-app'
 alias dotfiles='cd $HOME/dotfiles.git'
-alias swiftdir='cd $HOME/Desktop/projects/apple/swift'
+alias swiftdir='cd $HOME/Desktop/projects/apple-swift'
+alias argent='cd $HOME/Desktop/projects/argent'
 
 #PEAK
 alias prs="open https://github.com/brainbow/peak-brain-training/pulls"
