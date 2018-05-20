@@ -69,4 +69,7 @@ brew install hugo
 brew cask install qtspim
 #brew cask install google-chrome
 
+#Learning
+brew install pacvim
+
 brew cleanup
