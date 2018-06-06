@@ -39,7 +39,7 @@ alias swiftdir='cd $HOME/Desktop/projects/apple-swift'
 alias argent='cd $HOME/Desktop/projects/argent'
 
 #PEAK
-alias prs="open https://github.com/brainbow/peak-brain-training/pulls"
+alias prs="open https://github.com/argentlabs/ios/pulls"
 
 function brew.info {
   grep desc $(brew --prefix)/Library/Formula/*.rb | perl -ne 'm{^.*/(.*?)\.rb.*?\"(.*)"$} and print "$1|$2\n"' | column -t -s '|' | fzf --reverse
