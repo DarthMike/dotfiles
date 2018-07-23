@@ -13,6 +13,8 @@ alias quarter="git log --since '4 months ago' --author 'Miguel Angel Quinones'"
 
 alias objcdep="python objc_dep.py . > objcdep.dot"
 
+alias did="vim +'normal Go' +'r!date' ~/did.txt"
+
 #system
 alias lock='mac lock'
 
