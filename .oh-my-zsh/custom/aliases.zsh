@@ -38,7 +38,7 @@ alias dotfiles='cd $HOME/dotfiles.git'
 alias swiftdir='cd $HOME/Desktop/projects/apple-swift'
 alias argent='cd $HOME/Desktop/projects/argent'
 
-#PEAK
+#Argent
 alias prs="open https://github.com/argentlabs/ios/pulls"
 
 function brew.info {
