@@ -15,8 +15,8 @@ osx_setup() {
 	brew tap homebrew/boneyard
 
 	echo '...Setting up ruby 2.2.2...'
-	rvm install ruby 2.2.2
-	rvm alias create default ruby-2.2.2
+	rvm install ruby 2.5.0
+	rvm use 2.5.0 --default
 	rvm reload
 
 	echo '...Installing wireshark...'
