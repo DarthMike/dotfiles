@@ -18,13 +18,8 @@ echo "...Linking oh-my-zsh configs..."
 CUSTOM_ALIASES="$HOME/.oh-my-zsh/custom/aliases.zsh"
 rm $CUSTOM_ALIASES
 ln .oh-my-zsh/custom/aliases.zsh $CUSTOM_ALIASES
-ASYNC_PATH=".oh-my-zsh/custom/themes/async.zsh"
-PURE_PATH=".oh-my-zsh/custom/themes/purecustom.zsh-theme"
-rm -rf ASYNC_PATH
-rm -rf PURE_PATH
-git submodule update --init --recursive
-ln pure/async.zsh $ASYNC_PATH
-ln pure/pure.zsh $PURE_PATH
+echo "...Installing pure/async..."
+npm install --global pure-prompt
 
 if hash brew 2>/dev/null; then
 	echo '...Changing shell to ZSH...'

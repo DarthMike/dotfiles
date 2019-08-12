@@ -6,8 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="jnrowe"
-ZSH_THEME="purecustom"
-#ZSH_THEME="miqu"
+ZSH_THEME=""
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,6 +48,8 @@ ZSH_THEME="purecustom"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git osx sublime colored-man web-search pod pow common-aliases xcode)
 
+autoload -U promptinit; promptinit
+prompt pure
 source $ZSH/oh-my-zsh.sh
 
 # Source syntax highlighting
