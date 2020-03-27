@@ -8,7 +8,6 @@ gem 'xcpretty'
 gem 'fastlane'
 gem 'xcode-install'
 gem 'jazzy'
-gem 'update_xcode_plugins'
 
 #Cocoapods plugins
 #gem 'cocoapods-check_latest'
