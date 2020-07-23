@@ -625,7 +625,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>49 182 796 486 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 152 1395 725 0 0 1440 877 </string>
+	<string>0 693 2510 724 0 0 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_D5C4D9ED-2E0C-46F7-99F0-8260D820DB30</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_D5C4D9ED-2E0C-46F7-99F0-8260D820DB30_selection</key>
@@ -1213,7 +1213,7 @@
 			<key>Normal Font</key>
 			<string>Menlo-Bold 15</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -1469,19 +1469,25 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
+		<string>3.3.8beta1</string>
+		<string>3.3.10beta4</string>
 		<string>3.3.0beta10</string>
 		<string>3.3.7beta1</string>
 		<string>3.3.0beta11</string>
 		<string>3.3.5beta2</string>
 		<string>3.3.8beta5</string>
+		<string>3.3.9beta1</string>
 		<string>3.3.0beta13</string>
 		<string>3.3.8beta2</string>
 		<string>3.3.0beta15</string>
 		<string>3.3.8beta4</string>
 		<string>3.3.7beta2</string>
 		<string>3.3.5beta3</string>
+		<string>3.3.10beta1</string>
+		<string>3.3.11beta1</string>
 		<string>3.3.4beta1</string>
-		<string>3.3.8beta1</string>
+		<string>3.3.10beta2</string>
+		<string>3.3.10beta3</string>
 	</array>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
@@ -1503,7 +1509,7 @@
 	<key>NoSyncLastTipTime</key>
 	<real>590919764.93416798</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>54</integer>
+	<integer>94</integer>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -2376,7 +2382,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-01-26T10:41:05Z</date>
+	<date>2020-06-03T18:01:50Z</date>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>SavePasteHistory</key>
@@ -3241,7 +3247,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.3.8beta5</string>
+	<string>3.3.11beta1</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
