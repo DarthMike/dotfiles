@@ -25,32 +25,9 @@ echo '...Symlinking .xvimrc to ~/.xvimrc'
 rm $HOME/.xvimrc
 ln .xvimrc $HOME/.xvimrc
 
-echo '...Setting up objc_dep...'
-rm -rf objc_dep
-git clone https://github.com/nst/objc_dep
-cp objc_dep/objc_dep.py $HOME
-
 echo '...Setting up chisel...'
 rm $HOME/.lldbinit
 ln .lldbinit $HOME/.lldbinit
-
-echo '...Setting up dyci...'
-rm -rf dyci-main
-git clone https://github.com/DyCI/dyci-main
-pushd dyci-main
-#./Install/install.sh -s
-popd
-
-rm -rf $HOME/.kick
-mkdir $HOME/.kick
-ln .kick/code_injection.rb $HOME/.kick/code_injection.rb
-
-echo '...Installing templates...'
-echo '...Kiwi...'
-rm -rf $HOME/Kiwi
-git clone https://github.com/kiwi-bdd/Kiwi
-./Kiwi/Xcode\ Templates/install-templates.sh
-rm -rf $HOME/Kiwi
 
 echo '...Setting up build times visualization...'
 echo 'Check here: http://tonyarnold.com/2016/04/20/xcode-build-duration.html'
