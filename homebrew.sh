@@ -12,6 +12,7 @@ brew install sshfs
 #Tools
 brew install tmux
 brew install git
+brew install git-lfs
 brew install hg
 brew install bzr
 brew install hub
