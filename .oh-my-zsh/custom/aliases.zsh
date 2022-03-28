@@ -1,5 +1,5 @@
 #My aliases
-alias edit='atom'
+alias edit='code'
 alias zshrc='edit ~/.zshrc'
 alias ohmy='edit ~/.oh-my-zsh'
 
