@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="jnrowe"
-ZSH_THEME=""
+ZSH_THEME="purecustom"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -46,14 +46,12 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx sublime colored-man-pages web-search pod pow common-aliases xcode)
+plugins=(autoupdate git osx colored-man web-search pod pow common-aliases xcode)
 
-autoload -U promptinit; promptinit
-prompt pure
 source $ZSH/oh-my-zsh.sh
 
 # Source syntax highlighting
-source zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
 
 # User configuration
 export GOPATH=$HOME/Desktop/projects/go
@@ -78,6 +76,9 @@ export LANG=en_GB.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -101,4 +102,4 @@ bindkey ‘^R’ history-incremental-search-backward
 #bindkey -M viins ‘jj’ vi-cmd-mode
 
 # added by travis gem
-[ -f /Users/mquinones/.travis/travis.sh ] && source /Users/mquinones/.travis/travis.sh
+[ -f /Users/miqu/.travis/travis.sh ] && source /Users/miqu/.travis/travis.sh

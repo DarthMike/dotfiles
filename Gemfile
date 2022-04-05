@@ -7,7 +7,6 @@ gem 'xcpretty'
 # gem 'crafter'
 gem 'fastlane'
 gem 'xcode-install'
-gem 'jazzy'
 gem 'ad_licenselint'
 
 #Cocoapods plugins

@@ -27,7 +27,6 @@ alias gsp='git stash pop'
 alias gdc='git diff --cached'
 
 #ios
-alias injection='env NOTIFY=terminal-notifier kicker -r code_injection'
 alias pu='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod update && open -a Xcode'
 alias pi='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod install && open -a Xcode'
 alias xcd='/Applications/Xcode.app/Contents/MacOS/Xcode -ShowDVTDebugMenu YES'
@@ -35,7 +34,6 @@ alias xcd='/Applications/Xcode.app/Contents/MacOS/Xcode -ShowDVTDebugMenu YES'
 #Common dirs
 alias blog='cd $HOME/Sites/blog'
 alias personal='cd $HOME/Desktop/projects/personal'
-alias boardgamer='cd $HOME/Desktop/projects/personal/boardgamer-app'
 alias dotfiles='cd $HOME/dotfiles.git'
 alias swiftdir='cd $HOME/Desktop/projects/apple-swift'
 alias argent='cd $HOME/Desktop/projects/argent'

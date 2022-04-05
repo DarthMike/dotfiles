@@ -20,6 +20,9 @@ rm $CUSTOM_ALIASES
 ln .oh-my-zsh/custom/aliases.zsh $CUSTOM_ALIASES
 echo "...Installing pure/async..."
 npm install --global pure-prompt
+echo "...Setting up autoupdate..."
+AUTOUPDATE="$HOME/.oh-my-zsh/custom/autoupdate"
+ln -s .oh-my-zsh/custom/autoupdate $AUTOUPDATE
 
 if hash brew 2>/dev/null; then
 	echo '...Changing shell to ZSH...'

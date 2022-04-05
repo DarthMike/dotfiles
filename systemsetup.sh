@@ -14,15 +14,10 @@ osx_setup() {
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	brew tap homebrew/boneyard
 
-	echo '...Setting up ruby 2.2.2...'
-	rvm install ruby 2.5.0
-	rvm use 2.5.0 --default
+	echo '...Setting up ruby...'
+	rvm install ruby 2.6.5
+	rvm use 2.6.5 --default
 	rvm reload
-
-	echo '...Installing wireshark...'
-	echo '...Downloading development version 2.0.0... Check if it's released!'
-	curl https://1.na.dl.wireshark.org/osx/Wireshark%202.0.0rc2%20Intel%2064.dmg > wireshark.dmg
-	open wireshark.dmg
 }
 
 linux_setup() {
