@@ -15,8 +15,8 @@ osx_setup() {
 	brew tap homebrew/boneyard
 
 	echo '...Setting up ruby...'
-	rvm install ruby 2.6.5
-	rvm use 2.6.5 --default
+	rvm install ruby 3.1.2
+	rvm use 3.1.2 --default
 	rvm reload
 }
 

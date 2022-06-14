@@ -45,7 +45,6 @@ brew install swiftlint
 brew tap thoughtbot/formulae
 brew install liftoff
 brew install neonichu/formulae/azkaban
-brew install sourcekitten
 brew install finestructure/tap/arena  #https://github.com/finestructure/Arena
 
 #Languages/Frameworks
