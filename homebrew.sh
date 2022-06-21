@@ -33,15 +33,14 @@ brew install cloc
 brew install ctags
 brew install spim
 
-#Swift
+#Swift/IOS
 brew install kylef/formulae/swiftenv
-
-#iOS
 brew install xcproj
 brew install chisel
 brew install xctool
 brew install carthage
 brew install swiftlint
+brew install swiftformat
 brew tap thoughtbot/formulae
 brew install liftoff
 brew install neonichu/formulae/azkaban
