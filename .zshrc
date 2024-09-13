@@ -103,3 +103,4 @@ bindkey ‘^R’ history-incremental-search-backward
 
 # added by travis gem
 [ -f /Users/miqu/.travis/travis.sh ] && source /Users/miqu/.travis/travis.sh
+export PATH=$PATH:$HOME/.maestro/bin
