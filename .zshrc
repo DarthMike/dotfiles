@@ -89,7 +89,7 @@ export LANG=en_GB.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # z (jump around utility)
-. `brew --prefix`/etc/profile.d/z.sh
+source $(brew --prefix)/share/zsh/site-functions/_z
 
 # Key binding for vim-mode
 # https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
@@ -104,3 +104,4 @@ bindkey ‘^R’ history-incremental-search-backward
 # added by travis gem
 [ -f /Users/miqu/.travis/travis.sh ] && source /Users/miqu/.travis/travis.sh
 export PATH=$PATH:$HOME/.maestro/bin
+
