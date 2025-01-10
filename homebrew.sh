@@ -38,7 +38,6 @@ brew install kylef/formulae/swiftenv
 # brew install xcproj
 brew install chisel
 # brew install xctool
-brew install carthage
 brew install swiftlint
 brew install swiftformat
 # brew tap thoughtbot/formulae
