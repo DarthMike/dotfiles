@@ -7,6 +7,7 @@ brew upgrade
 brew install tree
 brew install gpg2
 brew install sshfs
+brew install asdf
 
 #Tools
 brew install tmux
@@ -60,10 +61,6 @@ brew install cmake
 
 #Blog
 brew install hugo
-
-#Apps
-brew cask install qtspim
-#brew cask install google-chrome
 
 #Learning
 brew install pacvim
