@@ -45,6 +45,10 @@ brew install swiftformat
 brew install neonichu/formulae/azkaban
 brew install finestructure/tap/arena  #https://github.com/finestructure/Arena
 
+# Swift/iOS for Cursor
+brew install xcode-build-server
+brew install xcbeautify
+
 #Languages/Frameworks
 brew install node
 brew install python
