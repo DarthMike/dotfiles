@@ -28,6 +28,7 @@ brew install ffmpeg
 brew install z
 brew install jq
 brew install cloc
+brew install uv
 
 #IDEs
 brew install ctags
