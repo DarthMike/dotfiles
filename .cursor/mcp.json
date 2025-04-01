@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "filesystem": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-filesystem",
+				"/Users/miqu/Desktop",
+				"/Users/miqu/Downloads",
+				"/Users/miqu/Desktop/projects",
+				"/Users/miqu/dotfiles.git"
+			]
+		},
+		"git": {
+			"command": "uvx",
+			"args": ["mcp-server-git", "--repository", "/Users/miqu/Desktop/projects/argent/ios"]
+		}
+  }
+}

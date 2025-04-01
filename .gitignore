@@ -8,3 +8,4 @@ atom
 .oh-my-zsh/custom/themes/purecustom.zsh-theme
 mac-cli
 SourceKittenDaemon
+.cursor/argv.json
