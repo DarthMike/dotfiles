@@ -31,7 +31,6 @@ brew install cloc
 brew install uv
 
 #IDEs
-brew install ctags
 brew install spim
 
 #Swift/IOS
@@ -55,9 +54,6 @@ brew install node
 brew install python
 brew install python3
 brew install go --cross-compile-common
-
-#Libs for libs :)
-brew install phantomjs
 
 #Build tools
 brew install ninja
