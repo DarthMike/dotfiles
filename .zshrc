@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Enable completion system
+autoload -Uz compinit
+compinit
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -56,10 +60,9 @@ source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # User configuration
 export GOPATH=$HOME/Desktop/projects/go
 export JAVAPATH=$HOME/Desktop/projects/java
-export HOMEBREW_PREFIX="/opt/homebrew"
+export HOMEBREW_PREFIX="/opt/homebrew/bin"
 
-export PATH="$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME:$GOPATH/bin:$JAVAPATH:$JAVAPATH/apache-maven-3.3.9/bin"
-# export PATH="/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/miqu/.rvm/gems/ruby-2.1.1/bin:/Users/miqu/.rvm/gems/ruby-2.1.1@global/bin:/Users/miqu/.rvm/rubies/ruby-2.1.1/bin:/Users/miqu/.rvm/bin:/Users/miqu/.rvm/bin:$HOME:$GOPATH/bin:$JAVAPATH:$JAVAPATH/apache-maven-3.3.9/bin"
+export PATH="$HOMEBREW_PREFIX:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME:$GOPATH/bin:$JAVAPATH:$JAVAPATH/apache-maven-3.3.9/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -91,7 +94,9 @@ export LANG=en_GB.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # z (jump around utility)
-source $(brew --prefix)/share/zsh/site-functions/_z
+if [ -f "$(brew --prefix)/share/zsh/site-functions/_z" ]; then
+  source "$(brew --prefix)/share/zsh/site-functions/_z"
+fi
 
 # Key binding for vim-mode
 # https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
