@@ -93,10 +93,16 @@ export LANG=en_GB.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# z (jump around utility)
-if [ -f "$(brew --prefix)/share/zsh/site-functions/_z" ]; then
-  source "$(brew --prefix)/share/zsh/site-functions/_z"
-fi
+# Git completion configuration
+fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
+autoload -Uz compinit
+compinit
+
+# Disable file completion for git checkout
+zstyle ':completion:*:*:git-checkout:*' ignored-patterns '*'
+
+# Source syntax highlighting
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh  
 
 # Key binding for vim-mode
 # https://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/
