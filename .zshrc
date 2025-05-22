@@ -118,3 +118,9 @@ bindkey ‘^R’ history-incremental-search-backward
 [ -f /Users/miqu/.travis/travis.sh ] && source /Users/miqu/.travis/travis.sh
 export PATH=$PATH:$HOME/.maestro/bin
 
+# asdf
+export PATH="$HOME/.asdf/shims:$PATH"
+if [ -f "$(brew --prefix asdf)/libexec/asdf.sh" ]; then
+  . "$(brew --prefix asdf)/libexec/asdf.sh"
+fi
+
