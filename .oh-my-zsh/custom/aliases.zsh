@@ -37,9 +37,11 @@ alias personal='cd $HOME/Desktop/projects/personal'
 alias dotfiles='cd $HOME/dotfiles.git'
 alias swiftdir='cd $HOME/Desktop/projects/apple-swift'
 alias argent='cd $HOME/Desktop/projects/argent'
+alias vault='cd $HOME/Desktop/projects/argent/vault-legacy-ios'
 
 #Argent
 alias prs="open https://github.com/argentlabs/ios/pulls"
+alias lprs="open https://github.com/argentlabs/vault-legacy-ios/pulls"
 
 function brew.info {
   grep desc $(brew --prefix)/Library/Formula/*.rb | perl -ne 'm{^.*/(.*?)\.rb.*?\"(.*)"$} and print "$1|$2\n"' | column -t -s '|' | fzf --reverse
