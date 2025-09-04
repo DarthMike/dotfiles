@@ -1,6 +1,7 @@
 [core]
 	excludesfile = $HOME/.gitignore_global
 	whitespace = trailing-space,space-before-tab
+	editor = vim
 [color]
 	interactive = true
 	showbranch = true
@@ -71,6 +72,9 @@
 	#Search entire codebase for a string
 	grep = grep -Ii
 	gr = grep -Ii
+
+	#create pull request using gh
+	pull-request = !gh pr create --editor
 
 	#LOL https://github.com/keith/dotfiles/blob/master/gitconfig
 	wtc = !sh -c 'git commit $@ -m \""`curl -s http://whatthecommit.com/index.txt`"\"' -

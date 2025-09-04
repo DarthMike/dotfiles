@@ -63,7 +63,7 @@ export JAVAPATH=$HOME/Desktop/projects/java
 export HOMEBREW_PREFIX="/opt/homebrew/bin"
 
 export PATH="$HOMEBREW_PREFIX:/usr/local/bin:$HOME/.local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME:$GOPATH/bin:$JAVAPATH:$JAVAPATH/apache-maven-3.3.9/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/opt/homebrew/bin:$PATH"
 
 # You may need to manually set your language environment
 export LANG=en_GB.UTF-8

@@ -13,10 +13,9 @@ brew install asdf
 brew install tmux
 brew install git
 brew install git-lfs
+brew install gh
 brew install hg
 brew install bzr
-brew install hub
-brew install --HEAD hub
 brew install imagemagick
 brew install gource
 brew install mergepbx

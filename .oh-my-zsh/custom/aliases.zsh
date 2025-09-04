@@ -5,7 +5,6 @@ alias ohmy='edit ~/.oh-my-zsh'
 
 alias fuck='sudo $(fc -ln -1)'
 
-alias git=hub
 
 alias rake="noglob rake"
 
@@ -25,6 +24,15 @@ alias gp='git push'
 alias gs='git stash'
 alias gsp='git stash pop'
 alias gdc='git diff --cached'
+
+#github cli
+alias prc='gh pr create'
+alias prl='gh pr list'
+alias prv='gh pr view'
+alias prs='gh pr status'
+alias ic='gh issue create'
+alias il='gh issue list'
+alias iv='gh issue view'
 
 #ios
 alias pu='osascript -e '"'"'quit app "Xcode"'"'"' && bundle exec pod update && open -a Xcode'
