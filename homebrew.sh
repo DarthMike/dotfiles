@@ -33,6 +33,7 @@ brew install uv
 brew install spim
 
 #Swift/IOS
+brew install xcodesorg/made/xcodes
 brew install kylef/formulae/swiftenv
 # brew install xcproj
 brew install chisel
