@@ -49,6 +49,10 @@ brew install finestructure/tap/arena  #https://github.com/finestructure/Arena
 brew install xcode-build-server
 brew install xcbeautify
 
+# MCP for LLMS (Swift/Apple)
+brew tap mihaelamj/tap
+brew install cupertino
+
 #Languages/Frameworks
 brew install node
 brew install python
