@@ -9,3 +9,4 @@ atom
 mac-cli
 SourceKittenDaemon
 .cursor/argv.json
+.secrets

@@ -124,3 +124,5 @@ if [ -f "$(brew --prefix asdf)/libexec/asdf.sh" ]; then
   . "$(brew --prefix asdf)/libexec/asdf.sh"
 fi
 
+# Source secrets (not tracked by git)
+[ -f ~/.secrets ] && source ~/.secrets
